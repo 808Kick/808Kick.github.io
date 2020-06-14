@@ -1,0 +1,57 @@
+*
+{
+  font-family: 'Balsamiq Sans', serif;
+  color: #2a422c;
+  box-sizing: border-box;
+}
+
+.menu
+{
+  float:left;
+  width:20%;
+  text-align:center;
+}
+a , .material-icons
+{
+  color:#ed2832
+}
+.menu p
+{
+  background-color:#e5e5e5;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  border-radius: 6px;
+}
+
+.main
+{
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+
+.right
+{
+  background-color:#e5e5e5;
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+  border-radius: 6px;
+}
+img
+{
+  border-style: solid;
+  border-color: #2a422c;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
